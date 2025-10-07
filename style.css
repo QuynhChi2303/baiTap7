@@ -2,10 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins";
 }
+
 input {
     border: none;
     outline: none;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .container {
@@ -14,25 +21,28 @@ input {
 }
 
 .navigation {
-    height: 1024px;
-    width: 5%;
+    width: 78px;
     background-color: #FFFFFF;
-    padding: 176px 0 0 0;
+    padding: 159px 0 0 0;
 }
 
 .nav-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 47px;
+    gap: 6.5px;
 }
+
 .nav-box .element {
     width: 100%;
     height: 58px;
-    background-color: #dee9ff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.select {
+    background-color: #dee9ff;
 }
 
 .nav-box img {
@@ -48,23 +58,26 @@ input {
 .header {
     display: flex;
     height: 72px;
-    margin-bottom: 15px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .header .title {
     h6 {
-        font-family: 'Poppins', sans-serif;
         font-size: 24px;
         font-weight: 500;
         line-height: 100%;
         letter-spacing: 0;
         color: #3E435D;
-        margin-bottom: 12px;
     }
 
     span {
-        font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 100%;
@@ -156,7 +169,6 @@ input:focus {
 
 .per_inf h6 {
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0px;
@@ -164,7 +176,6 @@ input:focus {
 }
 
 .per_inf span {
-    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -173,7 +184,6 @@ input:focus {
 }
 
 .edit button {
-    font-family: 'Poppins', sans-serif;
     background-color: #4182F9;
     width: 93px;
     height: 44px;
@@ -192,13 +202,13 @@ input:focus {
     width: 100%;
     gap: 25px;
     margin-bottom: 30px;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0px;
     color: #353535;
 }
+
 .resume .text {
     width: calc((100% - 30px)/2);
     position: relative;
@@ -223,6 +233,7 @@ input:focus {
     transform: translateY(3px);
     right: 20px;
 }
+
 .address {
     width: 266px;
     height: 177px;
@@ -234,32 +245,34 @@ input:focus {
     margin-top: 26px;
     gap: 15px;
 }
+
 .my-email h6 {
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0px;
 }
+
 .email {
     align-items: center;
 }
+
 .email h6 {
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0;
     margin-bottom: 6px;
 }
+
 .email span {
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0;
     color: #6f6f6f;
 }
+
 .email img {
     width: 24px;
     height: 24px;
@@ -270,7 +283,6 @@ input:focus {
     height: 44px;
     background-color: #dee9ff;
     color: #4182F9;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
@@ -279,6 +291,7 @@ input:focus {
     border-radius: 6px;
     margin-top: 26px;
 }
+
 .btn-email {
     width: 50px;
     height: 50px;
