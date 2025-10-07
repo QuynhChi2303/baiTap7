@@ -202,7 +202,7 @@ input:focus {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 25px;
+    gap: 25px 32px;
     margin-bottom: 30px;
     font-size: 16px;
     font-weight: 400;
@@ -212,7 +212,7 @@ input:focus {
 }
 
 .resume .text {
-    width: calc((100% - 30px)/2);
+    width: calc((100% - 32px)/2);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -239,12 +239,15 @@ input:focus {
 .address {
     width: 266px;
     height: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 26px;
 }
 
 .address .email {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 26px;
     gap: 15px;
 }
 
@@ -264,7 +267,6 @@ input:focus {
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0;
-    margin-bottom: 6px;
 }
 
 .email span {
@@ -291,7 +293,6 @@ input:focus {
     letter-spacing: 0;
     border: none;
     border-radius: 6px;
-    margin-top: 26px;
 }
 
 .btn-email {
