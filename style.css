@@ -148,6 +148,7 @@ input:focus {
 
 .form-contain img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .inf {
@@ -165,7 +166,7 @@ input:focus {
 .name {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 24px;
 }
 
 .name img {
@@ -174,7 +175,7 @@ input:focus {
 }
 
 .per_inf h6 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0px;
@@ -186,7 +187,8 @@ input:focus {
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0px;
-    color: #4a4848;
+    color: black ;
+    opacity: 50%;
 }
 
 .edit button {
@@ -207,7 +209,7 @@ input:focus {
     flex-wrap: wrap;
     width: 100%;
     gap: 25px 32px;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
